@@ -1,0 +1,185 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    overflow: hidden;
+}
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+    text-align: center;
+}
+h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #444444;
+    text-transform: uppercase;
+}
+.col-4{
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+figure{
+    margin: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+span{
+    color:#fc8946;
+}
+h1{
+    color: #493e3e;
+    font-size: 50px;
+}
+p{
+    color: #828282;
+}
+button{
+    background-image: linear-gradient(#fc8f4a,#fe4c30);
+    border: none;
+    padding: 20px 25px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+/* Header part starts */
+header{
+     background-color: transparent;
+}
+header img{
+    float: left;
+    padding-top: 20px; 
+}
+header nav{
+    float: right;
+    margin-top: 50px;
+}
+header li{
+     display: inline-block;
+ }
+header li > a{
+   text-decoration: none;
+    color: #2f9c5c;
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-weight: bold;
+}
+header .link{
+    color: #2f9c5c;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+header .link:hover {
+   transition: 0.4s;
+   background-color: #51d614;
+   color: #fc8946;
+   padding: 24px 10px;
+   border-radius: 30px;
+}
+
+/* Skip the Diet */
+#skipDiet{
+    background-color: #ffffff;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+#skipDiet .col-4 img{
+    width: 100%;
+}
+#skipDiet .skipDietLeftside{
+    padding-top: 100px;
+}
+/* About Me starts */
+#aboutMe{  
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+#aboutMe .aboutMeRightSide{
+    padding-top:100px;
+}
+#aboutMe .col-4 img{
+    margin-left: 80px;
+    padding-top: 80px;
+}
+/* My Recipies starts */
+#recipies{
+    background-color:white;
+    padding-top: 80px;   
+}
+#recipies .col-5{
+    width: 33.33333%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#recipies .img-responsive{
+    width: 100%; 
+}
+#recipies h5{
+    color:grey;
+}
+#recipies .headlineP{
+    padding-bottom: 60px;   
+}
+#recipies figure{
+    background-color: white;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 5px 7px 20px gray;
+    margin-bottom: 120px;
+}
+/* More information part*/
+#moreInfo{
+    background-color:#515151;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+#moreInfo .col-6{
+    width: 25%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#moreInfo h2{
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+#moreInfo a{
+    color: #c5c5c5;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 5s;
+}
+#moreInfo a:hover{
+   transition: 0.8s;
+   color: greenyellow;
+   margin-left: 8px;
+}
+/* Footer part starts */
+#footer{
+    background-color: #252525;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
